@@ -1,0 +1,2 @@
+# Perl undef comparison error
+This repository demonstrates a common error in Perl when comparing undefined variables using the 'eq' operator.  The example shows how comparing 'undef' with a string using 'eq' unexpectedly evaluates to true. The solution shows how to correctly handle 'undef' values using defined().
